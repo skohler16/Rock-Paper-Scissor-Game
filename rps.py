@@ -5,8 +5,6 @@ t = ["Rock", "Paper", "Scissor"]
 computer = t[randint(0,2)]
 Player = False
 
-print(computer)
-
 while Player == False:
     Player = input('Rock, Paper, Scissor?')
     if Player == computer:
@@ -28,9 +26,7 @@ while Player == False:
             print("Winner!", Player, "cuts", computer)
     else:
         print("That is not a valid input, Please check your spelling and try again!")
-
-
-
-Player = False
-computer = t[randint(0, 2)]
+    print("lets play again?")
+    Player = False
+    computer = t[randint(0, 2)]
 
